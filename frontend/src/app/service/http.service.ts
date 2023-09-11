@@ -6,7 +6,7 @@ import {AddMoneda, MonedaList} from '../Store/Model/moneda.model';
   providedIn: 'root'
 })
 export class HttpService {
-  baseurl = 'https://e6e6-186-99-28-114.ngrok-free.app/money';
+  baseurl = 'http://localhost:8080/money';
   constructor(private http: HttpClient) {
 
   }
